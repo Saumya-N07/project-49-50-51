@@ -1,0 +1,38 @@
+body {
+    color: rgb(0, 181, 226);
+    background-color: rgb(203, 97, 230);
+}
+
+.origami {
+    border-radius: 10px;
+    background-color: rgb(255, 187, 0);
+    font-family: fantasy;
+    padding: 25px;
+    border: 1px solid grey;
+    margin: 15px;
+    color: rgb(151, 47, 255);
+    text-align: center;
+}
+
+.origami img{
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.grid {
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    min-width: 600px;
+}
+
+.intro{
+    border: 2px solid black;
+    background-image: url("pics/BG.jpg");
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+}
